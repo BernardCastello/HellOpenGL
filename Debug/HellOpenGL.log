@@ -1,0 +1,38 @@
+﻿Build started 7/05/2015 10:00:44 AM.
+     1>Project "E:\Bernard Project\HellOpenGL\HellOpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./dep/inc /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cmathutils.cpp crenderutils.cpp main.cpp
+         main.cpp
+     1>e:\bernard project\hellopengl\input.h(19): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\bernard project\hellopengl\input.h(22): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\bernard project\hellopengl\input.h(38): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\bernard project\hellopengl\input.h(48): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\bernard project\hellopengl\time.h(12): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\bernard project\hellopengl\transform.h(5): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bernard project\hellopengl\rigidbody.h(6): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bernard project\hellopengl\render.h(4): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bernard project\hellopengl\factory.h(22): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bernard project\hellopengl\factory.h(72): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\bernard project\hellopengl\factory.h(73): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\bernard project\hellopengl\camera.h(18): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\bernard project\hellopengl\systemdef.h(17): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bernard project\hellopengl\rendering.h(5): warning C4002: too many actual parameters for macro 'sysDef'
+     1>e:\bernard project\hellopengl\transformupdate.h(5): warning C4002: too many actual parameters for macro 'sysDef'
+         crenderutils.cpp
+         cmathutils.cpp
+     1>e:\bernard project\hellopengl\cmathutils.cpp(78): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\bernard project\hellopengl\cmathutils.cpp(80): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\bernard project\hellopengl\cmathutils.cpp(82): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Bernard Project\HellOpenGL\Debug\HellOpenGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:./dep/lib opengl32.lib glew32.lib glew32s.lib glew32mx.lib glew32mxs.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Bernard Project\HellOpenGL\Debug\HellOpenGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Bernard Project\HellOpenGL\Debug\HellOpenGL.lib" /MACHINE:X86 Debug\cmathutils.obj
+         Debug\crenderutils.obj
+         Debug\main.obj
+         LINK : E:\Bernard Project\HellOpenGL\Debug\HellOpenGL.exe not found or not built by the last incremental link; performing full link
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         HellOpenGL.vcxproj -> E:\Bernard Project\HellOpenGL\Debug\HellOpenGL.exe
+     1>Done Building Project "E:\Bernard Project\HellOpenGL\HellOpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.36
